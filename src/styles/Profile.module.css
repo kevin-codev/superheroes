@@ -1,0 +1,45 @@
+.container {
+  border-radius: 10px;
+  background: bisque;
+  margin: 2rem;
+  padding: 2rem 4rem;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.good {
+  background: cadetblue
+}
+
+.bad {
+  background: maroon;
+  color: white;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.heroName {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.backGood {
+  color: black;
+}
+
+.backGood:hover {
+  color: black;
+}
+
+.backBad {
+  color: white;
+}
+
+.backBad:hover {
+  color: white;
+}

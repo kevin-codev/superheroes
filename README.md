@@ -1,10 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First setup the .env.local file using the template I shown in the .env.sample.
+After cloning, setup the .env.local file using the template shown in the [.env.sample](https://github.com/kevin-codev/superheroes/blob/master/.env.sample) file.
 
-Make sure to insert the access code by logging in your Facebook account to [Superheroes API](https://www.superheroapi.com/)
+Make sure to insert the 'access code' by linking your Facebook account to the [Superheroes API](https://www.superheroapi.com/) site.
+
+Install the dependencies by running the script:
+```bash
+npm install
+# or
+yarn intall
+# or
+pnpm isntall
+```
 
 Then, run the development server:
 

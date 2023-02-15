@@ -105,7 +105,7 @@ const Home = () => {
               <input
                 type="checkbox"
                 checked={realTime}
-                onClick={(event) => {
+                onChange={(event) => {
                   return setRealTime(event.currentTarget.checked);
                 }}
               />

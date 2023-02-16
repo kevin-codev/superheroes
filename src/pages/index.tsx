@@ -48,7 +48,7 @@ const Home = () => {
     setSearching(true);
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_SUPERHEROES_BASE_URL}${process.env.NEXT_PUBLIC_FB_ACCESS_TOKEN}/search/${heroName}`
+        `/api/superheroes?heroName=${heroName}`, 
       );
       const data: HeroResponse = await response.json();
       setHeroList(data.results);
